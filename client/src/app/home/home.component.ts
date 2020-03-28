@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {PDFService} from '../pdf.service';
-import { NotesService } from '../notes.service';
+import {PDFService} from '../services/pdf.service';
+import { NotesService } from '../services/notes.service';
 import { Note } from '../note';
 import { Subscription } from 'rxjs';
 

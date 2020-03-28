@@ -25,10 +25,11 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './home/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
-import { PDFService } from './pdf.service';
-import { NotesService } from './notes.service';
+import { PDFService } from './services/pdf.service';
+import { NotesService } from './services/notes.service';
 import { ViewerPageComponent } from './viewer-page/viewer-page.component';
 import { AddNoteComponent } from './add/add-note.component';
 import { EditComponent } from './edit/edit.component';
@@ -56,6 +57,7 @@ const MATERIAL_MODULES: any[] = [
   declarations: [
     AppComponent,
     HomeComponent,
+    LoginComponent,
     ViewerPageComponent,
     AddNoteComponent,
     EditComponent,
