@@ -12,5 +12,15 @@ import { map } from 'rxjs/operators';
 
 export class LoginService {
 
-  readonly ownerUrl: string = environment.API_URL + 'owners';
+  readonly loginUrl: string = environment.API_URL + 'login';
+
+  constructor(private httpClient: HttpClient) {}
+
+  getOwner() {
+
+  }
+
+
+
+
 }

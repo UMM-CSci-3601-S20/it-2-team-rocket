@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
-import { Note } from '../note';
-import { NotesService } from '../notes.service';
+import { Note } from '../note/note';
+import { NotesService } from '../services/notes.service';
 
 @Component({
   selector: 'app-add-note',

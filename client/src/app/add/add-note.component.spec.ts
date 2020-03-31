@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MockNoteService } from 'src/testing/note.service.mock';
 import { AddNoteComponent } from './add-note.component';
-import { NotesService } from '../notes.service';
+import { NotesService } from '../services/notes.service';
 
 describe('AddNoteComponent:', () => {
   let addNoteComponent: AddNoteComponent;

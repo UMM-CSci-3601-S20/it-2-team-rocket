@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NotesService } from '../notes.service';
-import { Note } from '../note';
+import { NotesService } from '../services/notes.service';
+import { Note } from '../note/note';
 import { Subscription } from 'rxjs';
 
 @Component({

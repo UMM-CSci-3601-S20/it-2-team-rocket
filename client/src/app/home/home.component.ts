@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {PDFService} from '../services/pdf.service';
 import { NotesService } from '../services/notes.service';
-import { Note } from '../note';
+import { Note } from '../note/note';
 import { Subscription } from 'rxjs';
 
 @Component({
