@@ -3,7 +3,7 @@ import {PDFService} from '../services/pdf.service';
 import { NotesService } from '../services/notes.service';
 import { Note } from '../note/note';
 import { Subscription } from 'rxjs';
-import { AuthService } from '../auth.service';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-home-component',

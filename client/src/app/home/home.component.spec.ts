@@ -3,11 +3,11 @@ import {HomeComponent} from './home.component';
 import {DebugElement} from '@angular/core';
 import {By} from '@angular/platform-browser';
 import { MatCardModule } from '@angular/material/card';
-import { PDFService } from '../pdf.service';
+import { PDFService } from '../services/pdf.service';
 import { MockPDFService } from 'src/testing/pdf.service.mock';
 import { MockNoteService } from 'src/testing/note.service.mock';
-import { NotesService } from '../notes.service';
-import { Note } from '../note';
+import { NotesService } from '../services/notes.service';
+import { Note } from '../note/note';
 import { of } from 'rxjs';
 
 describe('Home:', () => {
