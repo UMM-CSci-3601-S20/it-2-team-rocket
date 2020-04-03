@@ -25,7 +25,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './home/login.component';
+import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 import { PDFService } from './services/pdf.service';
